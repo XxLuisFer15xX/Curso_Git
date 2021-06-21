@@ -14,3 +14,7 @@
 
 >git remote: Nos lista los repositorios disponibles
 >git remote add: Añade un repositorio a la lista de repositorios disponibles
+
+Creando ramas en el repositorio:
+>git checkout -b rama1
+>git push origin rama1
