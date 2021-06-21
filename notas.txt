@@ -1,0 +1,16 @@
+>git reset HEAD: nombreArchivo: Marca el archivo para que no sea incluido en el proximo commit.
+>git reset --soft HEAD: deshace el commit y pone los archivos en el direccotrio de trabajo.
+>git reset --hard HEAD: deshace el commit sin la posibilidad de recuperar la información.
+>git clean: Elimina los archivos desconocidos en el arbol local, hace una limpieza.
+
+>git checkout rama: Cambio de ramas
+>git branch: Lista las ramas
+>git branch -f rama rev: sobreescribir la rama existente y comienza desde la revision
+>git merge rama: une las ramas
+
+>git pull: descarga y guarda los cambios realizados desde el repositorio remoto
+>git push: guarda nuestros cambios en un repositorio remoto
+>git fetch + git merge: Trae los cambios desde un repositorio remoto pero no los fusiona, hay que hacer el merge
+
+>git remote: Nos lista los repositorios disponibles
+>git remote add: Añade un repositorio a la lista de repositorios disponibles
